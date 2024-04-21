@@ -17,8 +17,8 @@ process.on('uncaughtException', function (err) {
   console.log(err);
 }); 
 
-/*const notes = await getNotes()
+const notes = await getNotes()
 console.log(notes)
 
 const note = await getNote(2)
-console.log(note)*/
+console.log(note)
